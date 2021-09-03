@@ -159,12 +159,12 @@
 .carousel {
   position: fixed;
   z-index: 2;
-  .slide img {
-    width: 20%;
-    max-height: 580px !important;
-    max-width: 1400px;
-    filter: brightness(50%);
-  }
+  // .slide img {
+  //   width: 20%;
+  //   max-height: 580px !important;
+  //   max-width: 1400px;
+  //   filter: brightness(50%);
+  // }
   // @media screen and (max-width: $mobile) {
   //   height: 180px;
   // }
