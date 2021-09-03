@@ -156,6 +156,11 @@ nav {
     background-color: hsl(200, 20%, 95%);
   }
 }
+
+.container {
+  padding:0;
+  margin:0;
+}
 .carousel {
   position: fixed;
   z-index: 2;
@@ -172,119 +177,161 @@ nav {
 .carousel-text {
   position: absolute;
   z-index: 3;
-  // margin: 20vh 18vh;
-  margin: 140px 160px;
-  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+  top: 50%;
+  left: 40%;
+  transform:translate(-40%, -50%);
+  width: 50%;
   font-family: 'ACaslonPro Regular';
   color: white;
+  z-index: 999;
 
   @media only screen and (min-height: 500px) and (max-width: 790px) {
-    margin: 4vh 2vh !important;
     width: 100%;
   }
 
+  @media screen and (min-width: 2750px) {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%, -50%);
+    width: 50%;
+  }
+
+  @media screen and (min-width: 2200px) {
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 50%;
+  }
+
   @media screen and (max-width: $desktop) {
-    margin: 18vh;
     width: 60%;
   }
 
   @media screen and (max-width: $tablet) {
-    margin: 12vh;
+    top: 50%;
+    left: 35%;
+    // transform:translate(50%, -35%);
     width: 60%;
   }
 
   @media screen and (max-width: $smallTablet) {
-    // margin: 100px 80px;
-    margin: 12vh 10vh;
     width: 60%;
   }
 
   @media screen and (max-width: $mobile) {
-    margin: 5vh 4vh;
     width: 50%;
   }
 
   #carousel-title1 {
     color: white;
-    font-size: 8vh;
+    font-size: 60px;
     margin: 0;
 
     @media only screen and (min-height: 500px) and (max-width: 790px) {
       font-size: 4vh;
     }
 
+    @media screen and (min-width: $largeDesktop) {
+      font-size: 3rem;
+    }
+
+    @media screen and (max-width: $desktop) {
+      font-size: 2.8rem;
+    }
+
     @media screen and (max-width: $tablet) {
-      font-size: 6vh;
+      font-size: 2.4rem;
     }
 
     @media screen and (max-width: $smallTablet) {
-      font-size: 4vh;
+      font-size: 1.8rem;
     }
 
     @media screen and (max-width: $mobile) {
-      font-size: 2.7vh;
+      font-size: 1.2rem;
     }
   }
   #carousel-title2 {
     font-family: 'ACaslonPro Regular';
-    font-size: 7vh;
     margin: 0;
 
     @media only screen and (min-height: 500px) and (max-width: 790px) {
-      font-size: 3.4vh !important;
+      font-size: 3.4vh;
+    }
+
+    @media screen and (min-width: $largeDesktop) {
+      font-size: 2.8rem;
+    }
+
+    @media screen and (max-width: $desktop) {
+      font-size: 2.6rem;
     }
 
     @media screen and (max-width: $tablet) {
-      font-size: 5.2vh;
-      // margin: 11vh 18vh;
+      font-size: 2.2rem;
     }
 
     @media screen and (max-width: $smallTablet) {
-      font-size: 6vh;
-      // margin: 50px 80px;
+      font-size: 1.6rem;
     }
 
     @media screen and (max-width: $mobile) {
-      font-size: 3vh;
-      // margin: 0px 30px;
-      // padding-top: 40px;
+      font-size: 1rem;
     }
   }
   #carousel-title-date {
-    font-size: 4vh;
     margin: 0;
     padding-top: 2vh;
     font-family: 'ACaslonPro Regular';
 
+    @media screen and (min-width: $largeDesktop) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: $desktop) {
+      font-size: 2.4rem;
+    }
+
     @media screen and (max-width: $tablet) {
-      font-size: 4vh;
+      font-size: 1.8rem;
     }
 
     @media screen and (max-width: $smallTablet) {
-      font-size: 2vh;
+      font-size: 1.2rem;
     }
 
     @media screen and (max-width: $mobile) {
-      font-size: 1.8vh;
+      font-size: .8rem;
     }
   }
   #carousel-subtitle {
     display: inline-block;
     width: 100%;
     padding-top: 2vh;
-    font-size: 2.8vh;
     margin: 0;
     font-family: 'Springville Regular3';
 
+    @media screen and (min-width: $largeDesktop) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: $desktop) {
+      font-size: 1.5rem;
+    }
+
     @media screen and (max-width: $tablet) {
+      font-size: 1.1rem;
     }
 
     @media screen and (max-width: $smallTablet) {
-      font-size: 2vh;
+      font-size: .8rem;
     }
 
     @media screen and (max-width: $mobile) {
-      font-size: 1.5vh;
+      font-size: .6rem;
     }
   }
 }
@@ -300,7 +347,7 @@ nav {
   margin: 0 auto;
 }
 .my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
+  padding-left: 30px;
   background-clip: padding-box;
   @media screen and (max-width: $mobile) {
     // padding-left: 0px;
