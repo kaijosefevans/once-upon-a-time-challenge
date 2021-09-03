@@ -8,154 +8,154 @@
   src: url('./assets/fonts/Springville-Regular3.otf') format('otf');
 }
 
-// body {
-//   margin: 0;
-//   width: 100%;
-//   height: 100%;
-//   padding: 0;
-//   overflow-x: hidden;
-//   font-family: 'Springville Regular3';
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Springville Regular3';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 // VARIABLES
 
-// $mobile: 480px;
-// $smallTablet: 768px;
-// $tablet: 1024px;
-// $desktop: 1440px;
-// $largeDesktop: 1441px;
+$mobile: 480px;
+$smallTablet: 768px;
+$tablet: 1024px;
+$desktop: 1440px;
+$largeDesktop: 1441px;
 
-// // HEADER
+// HEADER
 
-// .header {
-//   position: sticky;
-//   top: 0px;
-//   width: 100%;
-//   z-index: 1;
-//   background-color: white;
-// }
+.header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
 
-// nav {
-//   display: flex;
-//   justify-content: space-around;
-//   @media screen and (max-width: $mobile) {
-//     height: 50px;
-//   }
-// }
+nav {
+  display: flex;
+  justify-content: space-around;
+  @media screen and (max-width: $mobile) {
+    height: 50px;
+  }
+}
 
-// #header-logo {
-//   justify-self: start;
-//   width: 200px;
-//   height: 100px;
-//   align-items: center;
+#header-logo {
+  justify-self: start;
+  width: 200px;
+  height: 100px;
+  align-items: center;
 
-//   @media screen and (max-width: $mobile) {
-//     width: 100px;
-//     height: 50px;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    width: 100px;
+    height: 50px;
+  }
+}
 
-// .header-buttons {
-//   display: flex;
-//   justify-content: space-around;
-//   align-items: center;
-//   width: 14%;
+.header-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 14%;
 
-//   li {
-//     list-style-type: none;
-//     align-content: center;
-//   }
+  li {
+    list-style-type: none;
+    align-content: center;
+  }
 
-//   @media screen and (min-width: $largeDesktop) {
-//     width: 25%;
-//   }
+  @media screen and (min-width: $largeDesktop) {
+    width: 25%;
+  }
 
-//   @media screen and (max-width: $tablet) {
-//     width: 30%;
-//   }
+  @media screen and (max-width: $tablet) {
+    width: 30%;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     width: 40%;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    width: 40%;
+  }
+}
 
-// #header-phone-number {
-//   font-family: 'ACaslonPro Regular';
-//   color: #909090;
-//   font-size: 14px;
-//   margin-top: 1vh;
-//   &:hover {
-//     transition: 0.3s;
-//     color: blue;
-//     text-decoration: underline;
-//   }
+#header-phone-number {
+  font-family: 'ACaslonPro Regular';
+  color: #909090;
+  font-size: 14px;
+  margin-top: 1vh;
+  &:hover {
+    transition: 0.3s;
+    color: blue;
+    text-decoration: underline;
+  }
 
-//   @media screen and (min-width: $largeDesktop) {
-//     font-size: 20px;
-//     margin-top: 0vh;
-//   }
-//   @media screen and (max-width: $mobile) {
-//     margin-bottom: 1vh;
-//     font-size: 10px;
-//   }
-// }
+  @media screen and (min-width: $largeDesktop) {
+    font-size: 20px;
+    margin-top: 0vh;
+  }
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 1vh;
+    font-size: 10px;
+  }
+}
 
-// #login-button {
-//   font-family: 'ACaslonPro Regular';
-//   border: none;
-//   background-color: white;
-//   color: #636363;
-//   font-size: 14px;
-//   margin-top: 1vh;
-//   &:hover {
-//     transition: 0.3s;
-//     color: black;
-//     cursor: pointer;
-//     text-decoration: underline;
-//   }
-//   &:click {
-//     color: black;
-//   }
+#login-button {
+  font-family: 'ACaslonPro Regular';
+  border: none;
+  background-color: white;
+  color: #636363;
+  font-size: 14px;
+  margin-top: 1vh;
+  &:hover {
+    transition: 0.3s;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &:click {
+    color: black;
+  }
 
-//   @media screen and (min-width: $largeDesktop) {
-//     font-size: 20px;
-//     margin-top: 0vh;
-//   }
+  @media screen and (min-width: $largeDesktop) {
+    font-size: 20px;
+    margin-top: 0vh;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     margin-bottom: 1vh;
-//     font-size: 10px;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 1vh;
+    font-size: 10px;
+  }
+}
 
-// #menu-button {
-//   height: 25px;
-//   width: 25px;
-//   margin-top: 1vh;
+#menu-button {
+  height: 25px;
+  width: 25px;
+  margin-top: 1vh;
 
-//   @media screen and (max-width: $mobile) {
-//     height: 3vh;
-//     width: 3vh;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    height: 3vh;
+    width: 3vh;
+  }
+}
 
 // CAROUSEL
 
-// .skeleton {
-//   animation: skeleton-loading 1s linear infinite alternate;
-// }
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
 
-// @keyframes skeleton-loading {
-//   0% {
-//     background-color: hsl(200, 20%, 70%);
-//   }
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
 
-//   100% {
-//     background-color: hsl(200, 20%, 95%);
-//   }
-// }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
 .carousel {
   position: fixed;
   z-index: 2;
@@ -175,354 +175,354 @@
 //   height: 100%;
 
 //   /* Add this */
-
+//   position:fixed;
 //   top:0;
 //   left:0;
 // }
 
-// .carousel-text {
-//   position: absolute;
-//   z-index: 3;
-//   // margin: 20vh 18vh;
-//   margin: 140px 160px;
-//   width: 40%;
-//   font-family: 'ACaslonPro Regular';
-//   color: white;
+.carousel-text {
+  position: absolute;
+  z-index: 3;
+  // margin: 20vh 18vh;
+  margin: 140px 160px;
+  width: 40%;
+  font-family: 'ACaslonPro Regular';
+  color: white;
 
-//   @media only screen and (min-height: 500px) and (max-width: 790px) {
-//     margin: 4vh 2vh !important;
-//     width: 100%;
-//   }
+  @media only screen and (min-height: 500px) and (max-width: 790px) {
+    margin: 4vh 2vh !important;
+    width: 100%;
+  }
 
-//   @media screen and (max-width: $desktop) {
-//     margin: 18vh;
-//     width: 60%;
-//   }
+  @media screen and (max-width: $desktop) {
+    margin: 18vh;
+    width: 60%;
+  }
 
-//   @media screen and (max-width: $tablet) {
-//     margin: 12vh;
-//     width: 60%;
-//   }
+  @media screen and (max-width: $tablet) {
+    margin: 12vh;
+    width: 60%;
+  }
 
-//   @media screen and (max-width: $smallTablet) {
-//     // margin: 100px 80px;
-//     margin: 12vh 10vh;
-//     width: 60%;
-//   }
+  @media screen and (max-width: $smallTablet) {
+    // margin: 100px 80px;
+    margin: 12vh 10vh;
+    width: 60%;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     margin: 5vh 4vh;
-//     width: 50%;
-//   }
+  @media screen and (max-width: $mobile) {
+    margin: 5vh 4vh;
+    width: 50%;
+  }
 
-//   #carousel-title1 {
-//     color: white;
-//     font-size: 8vh;
-//     margin: 0;
+  #carousel-title1 {
+    color: white;
+    font-size: 8vh;
+    margin: 0;
 
-//     @media only screen and (min-height: 500px) and (max-width: 790px) {
-//       font-size: 4vh;
-//     }
+    @media only screen and (min-height: 500px) and (max-width: 790px) {
+      font-size: 4vh;
+    }
 
-//     @media screen and (max-width: $tablet) {
-//       font-size: 6vh;
-//     }
+    @media screen and (max-width: $tablet) {
+      font-size: 6vh;
+    }
 
-//     @media screen and (max-width: $smallTablet) {
-//       font-size: 4vh;
-//     }
+    @media screen and (max-width: $smallTablet) {
+      font-size: 4vh;
+    }
 
-//     @media screen and (max-width: $mobile) {
-//       font-size: 2.7vh;
-//     }
-//   }
-//   #carousel-title2 {
-//     font-family: 'ACaslonPro Regular';
-//     font-size: 7vh;
-//     margin: 0;
+    @media screen and (max-width: $mobile) {
+      font-size: 2.7vh;
+    }
+  }
+  #carousel-title2 {
+    font-family: 'ACaslonPro Regular';
+    font-size: 7vh;
+    margin: 0;
 
-//     @media only screen and (min-height: 500px) and (max-width: 790px) {
-//       font-size: 3.4vh !important;
-//     }
+    @media only screen and (min-height: 500px) and (max-width: 790px) {
+      font-size: 3.4vh !important;
+    }
 
-//     @media screen and (max-width: $tablet) {
-//       font-size: 5.2vh;
-//       // margin: 11vh 18vh;
-//     }
+    @media screen and (max-width: $tablet) {
+      font-size: 5.2vh;
+      // margin: 11vh 18vh;
+    }
 
-//     @media screen and (max-width: $smallTablet) {
-//       font-size: 6vh;
-//       // margin: 50px 80px;
-//     }
+    @media screen and (max-width: $smallTablet) {
+      font-size: 6vh;
+      // margin: 50px 80px;
+    }
 
-//     @media screen and (max-width: $mobile) {
-//       font-size: 3vh;
-//       // margin: 0px 30px;
-//       // padding-top: 40px;
-//     }
-//   }
-//   #carousel-title-date {
-//     font-size: 4vh;
-//     margin: 0;
-//     padding-top: 2vh;
-//     font-family: 'ACaslonPro Regular';
+    @media screen and (max-width: $mobile) {
+      font-size: 3vh;
+      // margin: 0px 30px;
+      // padding-top: 40px;
+    }
+  }
+  #carousel-title-date {
+    font-size: 4vh;
+    margin: 0;
+    padding-top: 2vh;
+    font-family: 'ACaslonPro Regular';
 
-//     @media screen and (max-width: $tablet) {
-//       font-size: 4vh;
-//     }
+    @media screen and (max-width: $tablet) {
+      font-size: 4vh;
+    }
 
-//     @media screen and (max-width: $smallTablet) {
-//       font-size: 2vh;
-//     }
+    @media screen and (max-width: $smallTablet) {
+      font-size: 2vh;
+    }
 
-//     @media screen and (max-width: $mobile) {
-//       font-size: 1.8vh;
-//     }
-//   }
-//   #carousel-subtitle {
-//     display: inline-block;
-//     width: 100%;
-//     padding-top: 2vh;
-//     font-size: 2.8vh;
-//     margin: 0;
-//     font-family: 'Springville Regular3';
+    @media screen and (max-width: $mobile) {
+      font-size: 1.8vh;
+    }
+  }
+  #carousel-subtitle {
+    display: inline-block;
+    width: 100%;
+    padding-top: 2vh;
+    font-size: 2.8vh;
+    margin: 0;
+    font-family: 'Springville Regular3';
 
-//     @media screen and (max-width: $tablet) {
-//     }
+    @media screen and (max-width: $tablet) {
+    }
 
-//     @media screen and (max-width: $smallTablet) {
-//       font-size: 2vh;
-//     }
+    @media screen and (max-width: $smallTablet) {
+      font-size: 2vh;
+    }
 
-//     @media screen and (max-width: $mobile) {
-//       font-size: 1.5vh;
-//     }
-//   }
-// }
+    @media screen and (max-width: $mobile) {
+      font-size: 1.5vh;
+    }
+  }
+}
 
-// // MASONRY GRID
+// MASONRY GRID
 
-// .my-masonry-grid {
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: flex;
-//   margin-left: -30px;
-//   width: 80%;
-//   margin: 0 auto;
-// }
-// .my-masonry-grid_column {
-//   padding-left: 30px; /* gutter size */
-//   background-clip: padding-box;
-//   @media screen and (max-width: $mobile) {
-//     // padding-left: 0px;
-//   }
-// }
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+  @media screen and (max-width: $mobile) {
+    // padding-left: 0px;
+  }
+}
 
-// .my-masonry-grid_column > div {
-//   margin-bottom: 30px;
+.my-masonry-grid_column > div {
+  margin-bottom: 30px;
 
-//   &::after {
-//     content: '';
-//     display: block;
-//     margin: 0 6px;
-//     width: 85%;
-//     padding-top: 20px;
-//     border-bottom: 1px #d3d3d3 solid;
-//   }
-//   @media screen and (max-width: $mobile) {
-//     width: 100%;
+  &::after {
+    content: '';
+    display: block;
+    margin: 0 6px;
+    width: 85%;
+    padding-top: 20px;
+    border-bottom: 1px #d3d3d3 solid;
+  }
+  @media screen and (max-width: $mobile) {
+    width: 100%;
 
-//     &::after {
-//       border-bottom: 1px #d3d3d3 solid;
-//       width: 80%;
-//     }
-//   }
-// }
+    &::after {
+      border-bottom: 1px #d3d3d3 solid;
+      width: 80%;
+    }
+  }
+}
 
-// #card-image {
-//   @media screen and (max-width: $smallTablet) {
-//     width: 90%;
-//   }
+#card-image {
+  @media screen and (max-width: $smallTablet) {
+    width: 90%;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     width: 90%;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    width: 90%;
+  }
+}
 
-// #card-date {
-//   font-size: 12px;
-//   font-family: Arial, Helvetica;
-//   color: #979797;
-// }
+#card-date {
+  font-size: 12px;
+  font-family: Arial, Helvetica;
+  color: #979797;
+}
 
-// #card-title {
-//   display: block;
-//   width: 88%;
-//   text-decoration: none;
-//   font-size: 48px;
-//   color: #0a0a0a;
-//   letter-spacing: -1px;
-//   font-family: 'Springville Regular3';
+#card-title {
+  display: block;
+  width: 88%;
+  text-decoration: none;
+  font-size: 48px;
+  color: #0a0a0a;
+  letter-spacing: -1px;
+  font-family: 'Springville Regular3';
 
-//   &:hover {
-//     text-decoration: underline;
-//   }
+  &:hover {
+    text-decoration: underline;
+  }
 
-//   @media screen and (max-width: $tablet) {
-//     font-size: 36px;
-//   }
-//   @media screen and (max-width: $mobile) {
-//     font-size: 24px;
-//     width: 83%;
-//   }
-// }
+  @media screen and (max-width: $tablet) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 24px;
+    width: 83%;
+  }
+}
 
-// #card-author {
-//   font-size: 12px;
-//   color: #101010;
-// }
+#card-author {
+  font-size: 12px;
+  color: #101010;
+}
 
-// #author-reroute {
-//   color: #101010;
-//   text-decoration: none;
-//   margin-bottom: 1px;
-//   border-bottom: 1px #101010 solid;
+#author-reroute {
+  color: #101010;
+  text-decoration: none;
+  margin-bottom: 1px;
+  border-bottom: 1px #101010 solid;
 
-//   &:hover {
-//     color: blue;
-//     transition: 0.3s;
-//     border-bottom: 1px blue solid;
-//   }
-// }
+  &:hover {
+    color: blue;
+    transition: 0.3s;
+    border-bottom: 1px blue solid;
+  }
+}
 
-// // FOOTER
+// FOOTER
 
-// .footer {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   text-align: center;
-//   padding-bottom: 50px;
-// }
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
 
-// #signup-title {
-//   color: #505050;
-// }
+#signup-title {
+  color: #505050;
+}
 
-// .copyright-footer {
-//   font-family: Arial, Helvetica;
-//   font-size: 10px;
-//   font-weight: 550;
-// }
+.copyright-footer {
+  font-family: Arial, Helvetica;
+  font-size: 10px;
+  font-weight: 550;
+}
 
-// .social-media-links {
-//   color: black;
-//   text-decoration: underline;
-//   &:hover {
-//     transition: 0.2s;
-//     color: blue;
-//   }
-// }
+.social-media-links {
+  color: black;
+  text-decoration: underline;
+  &:hover {
+    transition: 0.2s;
+    color: blue;
+  }
+}
 
-// .email-form {
-//   display: inline;
-//   padding-bottom: 20px;
-//   width: 33%;
+.email-form {
+  display: inline;
+  padding-bottom: 20px;
+  width: 33%;
 
-//   @media screen and (max-width: $tablet) {
-//     width: 50%;
-//   }
+  @media screen and (max-width: $tablet) {
+    width: 50%;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     width: 100%;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+  }
+}
 
-// #email {
-//   border-radius: 0px;
-//   width: 35%;
-//   padding: 11px;
-//   font-family: 'Springville Regular3';
-//   border: 1px black solid;
+#email {
+  border-radius: 0px;
+  width: 35%;
+  padding: 11px;
+  font-family: 'Springville Regular3';
+  border: 1px black solid;
 
-//   @media screen and (max-width: $desktop) {
-//     width: 50%;
-//   }
+  @media screen and (max-width: $desktop) {
+    width: 50%;
+  }
 
-//   @media screen and (max-width: $tablet) {
-//     width: 50%;
-//   }
+  @media screen and (max-width: $tablet) {
+    width: 50%;
+  }
 
-//   @media screen and (max-width: $mobile) {
-//     width: 50%;
-//     padding: 8px;
-//   }
-// }
+  @media screen and (max-width: $mobile) {
+    width: 50%;
+    padding: 8px;
+  }
+}
 
-// #submit-btn {
-//   display: inline;
-//   padding: 8px 10px 10px 12px;
-//   font-size: 16px;
-//   border-radius: 0px;
-//   font-family: 'Springville Regular3';
-//   background-color: black;
-//   color: white;
-//   border: 1px black solid;
+#submit-btn {
+  display: inline;
+  padding: 8px 10px 10px 12px;
+  font-size: 16px;
+  border-radius: 0px;
+  font-family: 'Springville Regular3';
+  background-color: black;
+  color: white;
+  border: 1px black solid;
 
-//   &:hover {
-//     background-color: #505050;
-//     transition: 0.2s;
-//   }
-//   &:active {
-//     background-color: #979797;
-//     transition: 0.2s;
-//   }
-//   @media screen and (max-width: mobile) {
-//     padding: 5px 7px 6px 9px !important;
-//     font-size: 8px;
-//   }
-// }
+  &:hover {
+    background-color: #505050;
+    transition: 0.2s;
+  }
+  &:active {
+    background-color: #979797;
+    transition: 0.2s;
+  }
+  @media screen and (max-width: mobile) {
+    padding: 5px 7px 6px 9px !important;
+    font-size: 8px;
+  }
+}
 
-// input[type='submit'] {
-//   font-family: 'Springville Regular3';
-//   @media screen and (max-width: mobile) {
-//     padding: 5px 7px 6px 9px;
-//     font-size: 8px;
-//   }
-// }
+input[type='submit'] {
+  font-family: 'Springville Regular3';
+  @media screen and (max-width: mobile) {
+    padding: 5px 7px 6px 9px;
+    font-size: 8px;
+  }
+}
 
-// .success-message {
-//   font-family: Arial, Helvetica;
-//   color: rgb(0, 0, 0);
-//   text-align: center;
-//   span {
-//     padding: 10px;
-//     border: 1px rgb(142, 228, 13) solid;
-//     border-radius: 10px;
-//     background-color: rgba(172, 255, 47, 0.575);
-//   }
-// }
+.success-message {
+  font-family: Arial, Helvetica;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  span {
+    padding: 10px;
+    border: 1px rgb(142, 228, 13) solid;
+    border-radius: 10px;
+    background-color: rgba(172, 255, 47, 0.575);
+  }
+}
 
-// .error-message {
-//   font-family: Arial, Helvetica;
-//   color: black;
-//   text-align: center;
-//   span {
-//     padding: 10px;
-//     border-radius: 10px;
-//     border: 1px rgb(180, 88, 88) solid;
-//     background-color: rgba(180, 88, 88, 0.623);
-//   }
-// }
+.error-message {
+  font-family: Arial, Helvetica;
+  color: black;
+  text-align: center;
+  span {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px rgb(180, 88, 88) solid;
+    background-color: rgba(180, 88, 88, 0.623);
+  }
+}
 
-// .result-text {
-//   @media screen and (max-width: $tablet) {
-//     padding: 8px;
-//     font-size: 12px;
-//   }
-//   @media screen and (max-width: $mobile) {
-//     padding: 6px;
-//     font-size: 10px;
-//   }
-// }
+.result-text {
+  @media screen and (max-width: $tablet) {
+    padding: 8px;
+    font-size: 12px;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 6px;
+    font-size: 10px;
+  }
+}
