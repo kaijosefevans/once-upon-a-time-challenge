@@ -42,7 +42,7 @@ function HeroCarousel(props) {
           <p id='carousel-title-date'>{date}</p>
           <p id='carousel-subtitle'>{props.items.hero_text.subtitle}</p>
         </div>
-        <Carousel infiniteLoop autoPlay interval={5000} showThumbs={false} showStatus={false} showArrows={false}>
+        <Carousel infiniteLoop autoPlay interval={5000} showThumbs={false} showStatus={false} showArrows={false} dynamicHeight={true}>
           {slides}
         </Carousel>
         <br />
