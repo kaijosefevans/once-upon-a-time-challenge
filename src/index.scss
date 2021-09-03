@@ -160,9 +160,10 @@ nav {
   position: fixed;
   z-index: 2;
   height: 100%;
+  max-height: 580px;
   .slide img {
     width: 20%;
-    max-height: 580px;
+    // max-height: 580px;
     max-width: 1400px;
     filter: brightness(50%);
   }
