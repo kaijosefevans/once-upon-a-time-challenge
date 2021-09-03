@@ -23,7 +23,7 @@ function HeroCarousel(props) {
     // declare var slides with value of props.items.hero_slides mapped accessing each seperate element and return seperate divs with images for carousel
     const slides = props.items.hero_slides.map((el, index) => {
       return (
-        <div key={'slide' + index}>
+        <div key={'slide' + index} className='slide-imgs'>
           <img src={el.image} alt={el.alt}></img>
         </div>
       );
